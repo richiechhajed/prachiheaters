@@ -1,0 +1,83 @@
+/* Background Gradient for Entire Page */
+body {
+    background: linear-gradient(to bottom, #f5f5dc, #c0c0c0); /* Cream to Silver */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar Background Gradient */
+.navbar {
+    background: linear-gradient(to right, #f5f5dc, #c0c0c0); /* Cream to Silver */
+    backdrop-filter: blur(5px);
+    border-bottom: 2px solid #ffd700;
+    opacity: 0;
+    animation: fadeIn 1.2s forwards; /* Fade in animation for header */
+}
+
+/* Navbar Link Styling */
+.navbar .nav-link {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd700; /* Highlight in gold on hover */
+    transform: translateY(-3px); /* Slight move on hover */
+}
+
+/* Social Icons */
+.social-icons a {
+    color: #555;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #000; /* Darker color on hover */
+    transform: scale(1.2); /* Increase size slightly on hover */
+}
+
+/* Footer Styling */
+footer {
+    opacity: 0;
+    animation: fadeIn 1.2s forwards, slideUp 1s ease-out 0.5s; /* Fade and slide animation */
+    background: #c0c0c0; /* Silver background */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Slide Up Animation for Footer */
+@keyframes slideUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+main {
+    padding-top: 56px;
+    /* color: #000;
+    text-decoration: underline; */
+}

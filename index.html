@@ -1,7 +1,222 @@
-<html>
-    <body>
-        testing website.
-        <br>
-        under construction.
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prachi Heaters provides innovative and high-quality industrial heating solutions for various applications.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prachi Heaters</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.png" alt="Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+                    Prachi Heaters</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-5" style="padding-top: 56px;">
+
+        <div id="heaterCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heaterCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heaterCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heaterCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#heaterCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#heaterCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- Carousel Items -->
+                <div class="carousel-item active">
+                    <img src="slider1.jpg" class="d-block w-100" alt="Heater 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tubular Heaters</h5>
+                        <p>Perfect for versatile industrial applications.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slider2.jpg" class="d-block w-100" alt="Heater 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cartridge Heaters</h5>
+                        <p>Compact and efficient for localized heating.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slider3.jpg" class="d-block w-100" alt="Heater 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Immersion Heaters</h5>
+                        <p>Efficient for heating liquids.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slider4.jpg" class="d-block w-100" alt="Heater 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Infrared Heaters</h5>
+                        <p>Fast and targeted heating solutions.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slider5.jpg" class="d-block w-100" alt="Heater 5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Band Heaters</h5>
+                        <p>Designed for heating cylindrical surfaces.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heaterCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heaterCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="text-center mb-5">
+            <h2 class="mb-4">Explore Our Range of Industrial Heaters</h2>
+            <p class="lead">Prachi Heaters offers a wide variety of industrial heating solutions designed to meet your specific needs.</p>
+        </section>
+        
+        <section class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="heater1.jpg" class="card-img-top" alt="Tubular Heater">
+                    <div class="card-body">
+                        <h5 class="card-title">Tubular Heaters</h5>
+                        <p class="card-text">Highly versatile heaters used in various industrial applications, including chemical and food processing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="heater2.jpg" class="card-img-top" alt="Cartridge Heater">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartridge Heaters</h5>
+                        <p class="card-text">Compact and durable, ideal for localized heating in molds, dies, and platens.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="heater3.jpg" class="card-img-top" alt="Immersion Heater">
+                    <div class="card-body">
+                        <h5 class="card-title">Immersion Heaters</h5>
+                        <p class="card-text">Efficient heaters for directly heating liquids in tanks and containers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="row g-4 mt-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="heater4.jpg" class="card-img-top" alt="Infrared Heater">
+                    <div class="card-body">
+                        <h5 class="card-title">Infrared Heaters</h5>
+                        <p class="card-text">Energy-efficient heaters that provide fast and targeted heating for industrial processes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="heater5.jpg" class="card-img-top" alt="Strip Heater">
+                    <div class="card-body">
+                        <h5 class="card-title">Strip Heaters</h5>
+                        <p class="card-text">Reliable heaters used in surface heating applications and drying processes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="heater6.jpg" class="card-img-top" alt="Band Heater">
+                    <div class="card-body">
+                        <h5 class="card-title">Band Heaters</h5>
+                        <p class="card-text">Designed for heating cylindrical surfaces, such as pipes and drums.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background: linear-gradient(to right, #d9d9d9, #c0c0c0); color: #333;">
+        <div class="container py-4">
+            <div class="row">
+                <!-- Prachi Heaters Section -->
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h5 style="color: #444;">Prachi Heaters</h5>
+                    <p>Your trusted partner in industrial heating solutions, delivering efficiency and innovation across various industries.</p>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="col-md-6">
+                    <h5 style="color: #444;">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" style="color: #333; text-decoration: none;">Home</a></li>
+                        <li><a href="products.html" style="color: #333; text-decoration: none;">Products</a></li>
+                        <li><a href="aboutus.html" style="color: #333; text-decoration: none;">About Us</a></li>
+                        <li><a href="contactus.html" style="color: #333; text-decoration: none;">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Contact Us Section -->
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled small">
+                        <li><strong>Phone:</strong> +91 94222 49710</li>
+                        <li><strong>Email:</strong> pracheeheaters@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom Section -->
+            <hr style="border-top: 1px solid #aaa;">
+            <div class="text-center">
+                <p class="m-0" style="color: #555;">© 2025 Prachi Heaters. All Rights Reserved.</p>
+                <p class="m-0" style="color: #555;">Follow us on:</p>
+                <div>
+                    <a href="#" style="color: #444; margin: 0 10px;"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" style="color: #444; margin: 0 10px;"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" style="color: #444; margin: 0 10px;"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" style="color: #444; margin: 0 10px;"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>document.addEventListener("DOMContentLoaded", function () {
+        const navbarHeight = document.querySelector(".navbar").offsetHeight;
+        document.body.style.paddingTop = `${navbarHeight}px`;
+    });
+    </script>
+</body>
 </html>
